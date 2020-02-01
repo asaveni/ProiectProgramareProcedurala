@@ -3,7 +3,9 @@ package main;
 public class ClasaPrincipala {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Mediu m = new Mediu(); // aici e apeleaza clasa Mediu
+		m.method1(); // apeleaza metoda method1 din clasa Mediu
+		m.method2(); // apeleaza metoda method2 din clasa Mediu
 
 	}
 
