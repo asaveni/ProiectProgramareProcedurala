@@ -8,9 +8,7 @@ public class ex3 {
 			System.out.println(a);
 		else
 			if(a++<4)
-				
-			
-				System.out.println(a);
+								System.out.println(a);
 
 	}
 
