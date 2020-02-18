@@ -1,18 +1,18 @@
 package main;
-public class Imobil {
+public class imobil {
 	private String tipCasa;
 	private int nrEtaje;
 	private double pret;
 
 
-	public Imobil() {
+	public imobil() {
 		tipCasa="";
 		nrEtaje=0;
 		pret=0;
 	}
 	
 
-	public Imobil(String tipCasa, int nrEtaje, double pret) {
+	public imobil(String tipCasa, int nrEtaje, double pret) {
 		this.tipCasa=tipCasa;
 		this.nrEtaje=nrEtaje;
 		this.pret=pret;
